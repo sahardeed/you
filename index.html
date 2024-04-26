@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bakery Company</title>
+    <style>
+        /* CSS code */
+        body {
+            background-color: #f5f3e6;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #d9c5a4;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav {
+            margin-top: 10px;
+        }
+        
+        nav a {
+            color: #4a3f35;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        
+        footer {
+            background-color: #d9c5a4;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .pastry-image {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        h1 {
+            color: #4a3f35;
+        }
+        
+        h2 {
+            color: #4a3f35;
+            margin-top: 20px;
+        }
+        
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        input[type="text"], textarea {
+            width: 300px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        
+        input[type="submit"] {
+            background-color: #4a3f35;
+            color: #ffffff;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#locations">Locations</a>
+        </nav>
+    </header>
+    
+    <div class="content">
+        <h1>Welcome to our Bakery!</h1>
+        
+        <img class="pastry-image" src="pastry.jpg" alt="Pastry Image">
+        
+        <h2>About Our Pastries</h2>
+        <p>
+            We offer a wide variety of delicious pastries made with love and care. From flaky croissants to mouthwatering
+            cakes, we have something to satisfy every sweet tooth. Our pastries are freshly baked daily using only the finest ingredients.
+        </p>
+        
+        <h2>Menu</h2>
+        <p>
+            Check out our menu below to see the delectable treats we have to offer:
+        </p>
+        <ul>
+            <li>Croissants</li>
+            <li>Donuts</li>
+            <li>Pies</li>
+            <li>Cakes</li>
+            <li>Cookies</li>
+            <li>and much more...</li>
+        </ul>
+        
+        <h2>Locations</h2>
+        <p>
+            Visit us at one of our convenient locations:
+        </p>
+        <ul>
+            <li>123 Main Street, City1</li>
+            <li>456 Maple Avenue, City2</li>
+            <li>789 Oak Street, City3</li>
+        </ul>
+        
+        <form>
+            <h2>Contact Us</h2>
+            <input type="text" placeholder="Your Name" required><br>
+            <input type="text" placeholder="Your Email" required><br>
+            <textarea placeholder="Your Message" rows="4" required></textarea><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+    
+    <footer>
+        &copy; 2024 Bakery Company. All rights reserved.
+    </footer>
+</body>
+</html>
